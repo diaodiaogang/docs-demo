@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 import { set_sidebar } from "./utils/auto-gen-sidebar.mjs"   // 改成自己的路径
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/docs-demo",
+  head: [["link",{rel: "icon", href: "/docs-demo/logo.svg"}]],
   title: "我很牛逼",
   description: "A VitePress Site",
   themeConfig: {
