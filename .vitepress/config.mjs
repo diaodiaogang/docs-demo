@@ -30,15 +30,16 @@ export default defineConfig({
     logo:'/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '奇衡体系',
+      { text: '4+1',
         items: [
           {text: "作手术录",link: '/'},
-          {text: "砖头",link: '/'},
+          {text: "专业投机原理",link: '/专业投机原理/砖头'},
           {text: "基本面",link: '/'}
         ] 
      },
       { text: 'markdown实例', link: '/markdown-examples' },
       { text: '一路骗到底',link: '/一路骗到底/第一课'},
+      
     ],
 
     // sidebar: [
