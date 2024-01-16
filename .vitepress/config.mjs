@@ -4,7 +4,7 @@ import { set_sidebar } from "./utils/auto-gen-sidebar.mjs"   // 改成自己的�
 export default defineConfig({
   base: "/docs-demo",
   head: [["link",{rel: "icon", href: "/docs-demo/logo.svg"}]],
-  title: "我很牛逼",
+  title: "Allan Diao的文档站",
   description: "A VitePress Site",
   themeConfig: {
     //设置搜索框的样式
@@ -30,11 +30,18 @@ export default defineConfig({
     logo:'/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
+      { text: 'Python',
+        items: [
+          
+          {text: "基础",link: '/Python/基础'},
+          
+        ] 
+     },
       { text: '4+1',
         items: [
-          {text: "作手术录",link: '/'},
+          
           {text: "专业投机原理",link: '/专业投机原理/砖头'},
-          {text: "基本面",link: '/'}
+          
         ] 
      },
       { text: 'markdown实例', link: '/markdown-examples' },

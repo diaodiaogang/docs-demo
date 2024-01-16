@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "我的学习文档"
-  text: "一个文档站点"
+  name: "Allan Diao的文档站"
+  text: "文档知识库"
   tagline: 坚持学习,学以致富。
   image:
     src: '/bg.png'
@@ -18,11 +18,11 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Feature A详细描述
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 小建议
+    details: 选择永远大于努力
+  - title: 自以为是
+    details: 坚持做你认为正确的事,哪怕道路曲折
+  - title: 思考
+    details: 学会思考，不要人云亦云
 ---
 
