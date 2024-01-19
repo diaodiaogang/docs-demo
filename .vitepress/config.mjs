@@ -33,7 +33,7 @@ export default defineConfig({
       { text: 'Python',
         items: [
           
-          {text: "基础",link: '/Python/基础'},
+          {text: "基础",link: '/Python/基础/基础'},
           
         ] 
      },
