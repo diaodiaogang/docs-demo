@@ -37,14 +37,21 @@ export default defineConfig({
           
         ] 
      },
+      { text: '基本面',
+        items: [
+
+          {text: "医药板块",link: '/基本面/医药股分析'},
+
+        ]
+      },
       { text: '4+1',
         items: [
-          
+          {text: "股票作手回忆录",link: '/股票作手回忆录/作手术录'},
           {text: "专业投机原理",link: '/专业投机原理/砖头'},
           
         ] 
      },
-      { text: 'markdown实例', link: '/markdown-examples' },
+
       { text: '一路骗到底',link: '/一路骗到底/第一课'},
       
     ],
