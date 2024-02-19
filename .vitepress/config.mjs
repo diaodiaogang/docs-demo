@@ -41,8 +41,7 @@ export default defineConfig({
         items: [
 
           {text: "林奇拾贝",link: '/林奇拾贝/林奇拾贝'},
-          {text: "北斗板块",link: '/基本面/北斗板块分析'},
-          {text: "5G板块",link: '/基本面/5G板块分析'},
+
 
         ]
       },
