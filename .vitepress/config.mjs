@@ -62,7 +62,7 @@ export default defineConfig({
         ] 
      },
 
-      { text: '一路骗到底',link: '/一路骗到底/第一课'},
+
       
     ],
 
